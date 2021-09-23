@@ -1,4 +1,3 @@
-FROM node:6 
-EXPOSE 4000 
-COPY index.js . 
-CMD node index.js
+FROM node:6
+EXPOSE 3000
+CMD node www/index.js
